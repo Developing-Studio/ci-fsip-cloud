@@ -1,0 +1,144 @@
+
+body {
+background: #76b852;
+background: -webkit-linear-gradient(right, #76b852, #8DC26F);
+background: -moz-linear-gradient(right, #76b852, #8DC26F);
+background: -o-linear-gradient(right, #76b852, #8DC26F);
+background: linear-gradient(to left, #76b852, #8DC26F);
+opacity: 1;
+transition: 2s opacity;
+}
+body.fadeout {
+opacity: 0;
+transition: none;
+}
+
+.show {
+    opacity: 1;
+    transition: opacity 1s;
+}
+.show1 {
+    display: block;
+    transition: display 1s;
+}
+.hide {
+    opacity: 0;
+    transition: none;
+}
+.hide1 {
+    display: none;
+    opacity: 0;
+    transition: none;
+}
+
+.red {
+    color: #FF0000;
+}
+.purple {
+    color: purple;
+}
+.blue {
+    color:blue;
+}
+.ns1set {
+    color:purple;
+    text-shadow: 0 0 1px black;
+}
+.nonlight {
+    opacity: 0;
+}
+.light {
+    opacity: 1;
+    transition: opacity 2s;
+    text-shadow: 0 0 2px white;
+
+}
+.surviv {
+    background-image:url("https://surviv.io/img/main_splash.png");
+}
+.shadow {
+    text-shadow: 0 0 6px black;
+}
+
+.sbutton {
+    color:gold;
+    background:black;
+    border-radius:0.5em;
+    padding:5px 20px
+}
+
+
+.sbutton:hover, .sbutton:active, .sbutton:focus {
+    /*background: #43A047;*/
+    color: green;
+}
+.sbutton2 {
+    color:purple;
+    background:black;
+    border-radius:0.5em;
+    padding:5px 20px
+}
+
+
+.sbutton2:hover, .sbutton2:active, .sbutton2:focus {
+    /*background: #43A047;*/
+    color: gold;
+}
+
+
+.sinput {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 10%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    color:green;
+    transition: color 0.5s;
+}
+.sinput30 {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 30%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    color:green;
+    transition: color 0.5s;
+}
+.sinput1 {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 10%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    color:red;
+    transition: color 0.5s;
+}
+.sinput100 {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.a, .ablue {
+    text-decoration: none;
+    color: #118bb6;
+    transition:all 0.3s ease;}
+.a:hover,.ablue:hover {
+    color: #a6c6cb;}
