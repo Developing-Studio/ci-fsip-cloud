@@ -8,7 +8,8 @@ MinecraftAPI.getServerStatus('fsip.ml', {
 	document.querySelector('.status').innerHTML = status.online ? '온라인' : '오프라인';
 	document.querySelector('.version').innerHTML = status.server.name;
 	document.querySelector('.players').innerHTML = status.players.now+"/"+status.players.max;
-	var ping = status.duration/1000000000;
-	ping = ping.toString().match(/^.*\.\d{3}/);
+	var ping = status.duration/1000000;
+	ping = ping.toString().match(/^.*\.\d{0}/);
+	ping = ping.toString().replace(".","");
 	document.querySelector('.duration').innerHTML = ping + "ms";
 			});
